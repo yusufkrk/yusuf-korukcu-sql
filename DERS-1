@@ -1,0 +1,23 @@
+SQL DERS1
+
+--SELECT * FROM Products --WHERE supplierid BETWEEN 1 AND 5
+
+--SELECT * FROM Products --WHERE supplierid IN (1,2,4,5)
+
+--SELECT * FROM Products --where productname like 'chang' or productname like 'Aniseed Syrup'
+
+--SELECT * FROM Products --where supplierid = 3 or unitprice > 10
+
+--SELECT productname || ' - ' || unitprice || 'TL' AS "ÜRÜN & FİYATLAR" FROM Products
+
+--SELECT productname --FROM products --WHERE UPPER(productname) LIKE '%C%'
+
+--SELECT productname --FROM products --WHERE productname LIKE 'N%' --AND productname NOT LIKE '% %'
+
+-- En yüksek birim fiyatına sahip ürün --SELECT productname, unitprice --FROM products --WHERE unitprice = (SELECT MAX(unitprice) FROM products)
+
+-- En düşük birim fiyatına sahip ürün --SELECT productname, unitprice --FROM products --WHERE unitprice = (SELECT MIN(unitprice) FROM products)
+
+--SELECT productname, unitprice --FROM products --WHERE unitprice = (SELECT MAX(unitprice) FROM products) --OR unitprice = (SELECT MIN(unitprice) FROM products)
+
+--SELECT productname --FROM products --WHERE productname LIKE '%Spice%'
