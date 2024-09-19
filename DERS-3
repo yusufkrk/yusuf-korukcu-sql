@@ -171,7 +171,7 @@
 
 
 
---SELECT C.CustomerName
+--SELECT C.ContactName
 --FROM Customers C
 --LEFT JOIN Orders O ON C.CustomerID = O.CustomerID
 --WHERE O.OrderID IS NULL;
