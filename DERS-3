@@ -111,7 +111,6 @@
 --FROM Products P
 --INNER JOIN MaxPrices M ON P.CategoryID = M.CategoryID AND P.UnitPrice = M.MaxPrice
 --GROUP BY P.ProductID, P.ProductName, P.CategoryID, P.UnitPrice;
---SORUYU ANLAYAMADIĞIMDAN BU SORGUYU CHATGPT YARDIMI İLE YAPTIM
 
 
 
